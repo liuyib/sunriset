@@ -1,6 +1,15 @@
-# <center>:sun_with_face: suntime</center>
+<h3 align="center" style="font-size: 2em;">🌞 suntime</h3>
 
-Calculate sunrise and sunset times for a given date and location.
+<p align="center">Calculate sunrise and sunset times for a given date and location.</p>
+
+<p align="center">
+  <a href="http://standardjs.com" target="_blank" rel="noopener noreferrer">
+    <img alt="npm" src="https://img.shields.io/npm/v/suntime.svg?style=flat-square">
+  </a>
+  <a href="http://standardjs.com" target="_blank" rel="noopener noreferrer">
+    <img alt="npm" src="https://img.shields.io/npm/dt/suntime.svg?style=flat-square">
+  </a>
+</p>
 
 [English](https://github.com/liuyib/suntime/blob/master/README.md) | [简体中文](https://github.com/liuyib/suntime/blob/master/README-zh-Hans.md)
 
@@ -73,15 +82,16 @@ Calculate sunrise and sunset times for a given date and location.
 - **Number** `lon`: The longitude.
 
 #### Return
+
 - **Object** An object containing:
-   - `sunrise` (Object):
-     - `raw_time` (Array): An array of two numbers (hours and minutes)
-     - `time` (String): Formatted sunrise time (`HH:mm`)
-   - `sunset` (Object):
-     - `raw_time` (Array): An array of two numbers (hours and minutes)
-     - `time` (String): Formatted sunset time (`HH:mm`)
-   - `date` (Date): The provided date.
-   - `coordinates` (Array): An array of latitude and longitude values.
+  - `sunrise` (Object):
+    - `raw_time` (Array): An array of two numbers (hours and minutes)
+    - `time` (String): Formatted sunrise time (`HH:mm`)
+  - `sunset` (Object):
+    - `raw_time` (Array): An array of two numbers (hours and minutes)
+    - `time` (String): Formatted sunset time (`HH:mm`)
+  - `date` (Date): The provided date.
+  - `coordinates` (Array): An array of latitude and longitude values.
 
 ## :handshake: License
 

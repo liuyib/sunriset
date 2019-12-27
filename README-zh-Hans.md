@@ -1,6 +1,15 @@
-# <center>:sun_with_face: suntime</center>
+<h3 align="center" style="font-size: 2em;">🌞 suntime</h3>
 
-通过日期和经纬度，计算日出和日落的时间。
+<p align="center">通过日期和经纬度，计算日出和日落的时间。</p>
+
+<p align="center">
+  <a href="http://standardjs.com" target="_blank" rel="noopener noreferrer">
+    <img alt="npm" src="https://img.shields.io/npm/v/suntime.svg?style=flat-square">
+  </a>
+  <a href="http://standardjs.com" target="_blank" rel="noopener noreferrer">
+    <img alt="npm" src="https://img.shields.io/npm/dt/suntime.svg?style=flat-square">
+  </a>
+</p>
 
 [English](https://github.com/liuyib/suntime/blob/master/README.md) | [简体中文](https://github.com/liuyib/suntime/blob/master/README-zh-Hans.md)
 

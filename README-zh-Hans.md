@@ -1,32 +1,32 @@
-<h3 align="center" style="font-size: 2em;">🌞 suntime</h3>
+<h1 align="center">🌞 sunriset</h1>
 
 <p align="center">通过日期和经纬度，计算日出和日落的时间。</p>
 
 <p align="center">
   <a href="http://standardjs.com" target="_blank" rel="noopener noreferrer">
-    <img alt="npm" src="https://img.shields.io/npm/v/suntime.svg?style=flat-square">
+    <img alt="npm" src="https://img.shields.io/npm/v/sunriset.svg?style=flat-square">
   </a>
   <a href="http://standardjs.com" target="_blank" rel="noopener noreferrer">
-    <img alt="npm" src="https://img.shields.io/npm/dt/suntime.svg?style=flat-square">
+    <img alt="npm" src="https://img.shields.io/npm/dt/sunriset.svg?style=flat-square">
   </a>
 </p>
 
-[English](https://github.com/liuyib/suntime/blob/master/README.md) | [简体中文](https://github.com/liuyib/suntime/blob/master/README-zh-Hans.md)
+[English](https://github.com/liuyib/sunriset/blob/master/README.md) | [简体中文](https://github.com/liuyib/sunriset/blob/master/README-zh-Hans.md)
 
 ## :cloud: 安装
 
 ```bash
 # npm
-npm install --save suntime
+npm install --save sunriset
 
 # yarn
-yarn add suntime
+yarn add sunriset
 ```
 
 也支持 CDN 引用:
 
 ```html
-<script src="https://www.jsdelivr.com/package/npm/suntime"></script>
+<script src="https://www.jsdelivr.com/package/npm/sunriset"></script>
 ```
 
 ## :package: 使用
@@ -34,23 +34,23 @@ yarn add suntime
 支持 `UMD` 打包规范：
 
 ```js
-import suntime from 'suntime';
+import sunriset from 'sunriset';
 
 // OR
 
-const suntime = require('suntime');
+const sunriset = require('sunriset');
 ```
 
 使用举例:
 
 ```js
-import suntime from 'suntime';
+import sunriset from 'sunriset';
 
 // Sunrise and sunset times of Beijing, December 27, 2019.
 const longitude = 116.404;
 const latitude = 39.908;
 
-const getSuntime = suntime(new Date(), latitude, longitude);
+const getSuntime = sunriset(new Date(), latitude, longitude);
 // {
 //   sunrise: {
 //     raw_time: [7, 35],
@@ -71,7 +71,7 @@ const getSuntime = suntime(new Date(), latitude, longitude);
 
 ## :memo: 文档
 
-### `suntime(date, lat, lon)`
+### `sunriset(date, lat, lon)`
 
 通过日期和经纬度，计算日出和日落的时间。
 
@@ -95,4 +95,4 @@ const getSuntime = suntime(new Date(), latitude, longitude);
 
 ## :handshake: 开源协议
 
-[MIT](https://github.com/liuyib/suntime/blob/master/LICENSE) Copyright (c) 2019 [liuyib](https://github.com/liuyib/)
+[MIT](https://github.com/liuyib/sunriset/blob/master/LICENSE) Copyright (c) 2019 [liuyib](https://github.com/liuyib/)

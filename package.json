@@ -1,5 +1,5 @@
 {
-  "name": "suntime",
+  "name": "sunriset",
   "version": "0.0.1",
   "description": "Calculate sunrise and sunset times",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liuyib/suntime.git"
+    "url": "git+https://github.com/liuyib/sunriset.git"
   },
   "keywords": [
     "sunrise",
@@ -17,9 +17,9 @@
   "author": "liuyib",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/liuyib/suntime/issues"
+    "url": "https://github.com/liuyib/sunriset/issues"
   },
-  "homepage": "https://github.com/liuyib/suntime#readme",
+  "homepage": "https://github.com/liuyib/sunriset#readme",
   "devDependencies": {
     "@babel/core": "^7.7.7",
     "@babel/preset-env": "^7.7.7",

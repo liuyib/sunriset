@@ -7,15 +7,9 @@ export default {
   input: 'src/main.js',
   output: [
     {
-      file: './dist/suntime.js',
+      file: './dist/sunriset.min.js',
       format: 'umd',
-      name: 'suntime',
-    },
-    {
-      file: './dist/suntime.min.js',
-      format: 'umd',
-      name: 'suntime',
-      sourcemap: true,
+      name: 'sunriset',
       plugins: [terser()],
     },
   ],

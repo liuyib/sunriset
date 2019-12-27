@@ -1,10 +1,10 @@
 # <center>:sun_with_face: suntime</center>
 
-Calculate sunrise and sunset times for a given date and location.
+通过日期和经纬度，计算日出和日落的时间。
 
 [English](https://github.com/liuyib/suntime/blob/master/README.md) | [简体中文](https://github.com/liuyib/suntime/blob/master/README-zh-Hans.md)
 
-## :cloud: Installation
+## :cloud: 安装
 
 ```bash
 # npm
@@ -14,9 +14,15 @@ npm install --save suntime
 yarn add suntime
 ```
 
-## :package: Usage
+也支持 CDN 引用:
 
-Support `UMD` packaging specification:
+```html
+<script src="https://www.jsdelivr.com/package/npm/suntime"></script>
+```
+
+## :package: 使用
+
+支持 `UMD` 打包规范：
 
 ```js
 import suntime from 'suntime';
@@ -26,7 +32,7 @@ import suntime from 'suntime';
 const suntime = require('suntime');
 ```
 
-Example:
+使用举例:
 
 ```js
 import suntime from 'suntime';
@@ -54,35 +60,30 @@ const getSuntime = suntime(new Date(), latitude, longitude);
 // }
 ```
 
-Also support CDN:
-
-```html
-<script src="https://www.jsdelivr.com/package/npm/suntime"></script>
-```
-
-## :memo: Documentation
+## :memo: 文档
 
 ### `suntime(date, lat, lon)`
 
-Calculate sunrise and sunset times for a given date and location.
+通过日期和经纬度，计算日出和日落的时间。
 
-#### Params
+#### 参数
 
-- **Date** `date`: The date you want to find the sun data for.
-- **Number** `lat`: The latitude.
-- **Number** `lon`: The longitude.
+- **Date** `date`: 日期
+- **Number** `lat`: 维度
+- **Number** `lon`: 经度
 
-#### Return
-- **Object** An object containing:
-   - `sunrise` (Object):
-     - `raw_time` (Array): An array of two numbers (hours and minutes)
-     - `time` (String): Formatted sunrise time (`HH:mm`)
-   - `sunset` (Object):
-     - `raw_time` (Array): An array of two numbers (hours and minutes)
-     - `time` (String): Formatted sunset time (`HH:mm`)
-   - `date` (Date): The provided date.
-   - `coordinates` (Array): An array of latitude and longitude values.
+#### 返回值
 
-## :handshake: License
+- **Object**:
+  - `sunrise` (Object):
+    - `raw_time` (Array): 一个数组，包含两个数字（小时和分钟）
+    - `time` (String): 格式化的日出时间（`HH:mm`）
+  - `sunset` (Object):
+    - `raw_time` (Array): 一个数组，包含两个数字（小时和分钟）
+    - `time` (String): 格式化的日落时间（`HH:mm`）
+  - `date` (Date): 输入的日期
+  - `coordinates` (Array): 输入的经纬度
+
+## :handshake: 开源协议
 
 [MIT](https://github.com/liuyib/suntime/blob/master/LICENSE) Copyright (c) 2019 [liuyib](https://github.com/liuyib/)

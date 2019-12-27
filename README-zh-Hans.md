@@ -3,10 +3,10 @@
 <p align="center">通过日期和经纬度，计算日出和日落的时间。</p>
 
 <p align="center">
-  <a href="http://standardjs.com" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.npmjs.com/package/sunriset" target="_blank" rel="noopener noreferrer">
     <img alt="npm" src="https://img.shields.io/npm/v/sunriset.svg?style=flat-square">
   </a>
-  <a href="http://standardjs.com" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.npmjs.com/package/sunriset" target="_blank" rel="noopener noreferrer">
     <img alt="npm" src="https://img.shields.io/npm/dt/sunriset.svg?style=flat-square">
   </a>
 </p>

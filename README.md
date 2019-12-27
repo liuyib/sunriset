@@ -3,10 +3,10 @@
 <p align="center">Calculate sunrise and sunset times for a given date and location.</p>
 
 <p align="center">
-  <a href="http://standardjs.com" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.npmjs.com/package/sunriset" target="_blank" rel="noopener noreferrer">
     <img alt="npm" src="https://img.shields.io/npm/v/sunriset.svg?style=flat-square">
   </a>
-  <a href="http://standardjs.com" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.npmjs.com/package/sunriset" target="_blank" rel="noopener noreferrer">
     <img alt="npm" src="https://img.shields.io/npm/dt/sunriset.svg?style=flat-square">
   </a>
 </p>
@@ -21,6 +21,12 @@ npm install --save sunriset
 
 # yarn
 yarn add sunriset
+```
+
+Also support CDN:
+
+```html
+<script src="https://www.jsdelivr.com/package/npm/sunriset"></script>
 ```
 
 ## :package: Usage
@@ -61,12 +67,6 @@ const getSuntime = sunriset(new Date(), latitude, longitude);
 //   date: '2019-12-27T01:25:08.897Z',
 //   coordinates: [39.908, 0.32334444444444443],
 // }
-```
-
-Also support CDN:
-
-```html
-<script src="https://www.jsdelivr.com/package/npm/sunriset"></script>
 ```
 
 ## :memo: Documentation

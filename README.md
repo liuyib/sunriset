@@ -26,22 +26,10 @@ yarn add sunriset
 Also support CDN:
 
 ```html
-<script src="https://www.jsdelivr.com/package/npm/sunriset"></script>
+<script src="https://cdn.jsdelivr.net/npm/sunriset@latest/dist/sunriset.min.js"></script>
 ```
 
 ## :package: Usage
-
-Support `UMD` packaging specification:
-
-```js
-import sunriset from 'sunriset';
-
-// OR
-
-const sunriset = require('sunriset');
-```
-
-Example:
 
 ```js
 import sunriset from 'sunriset';

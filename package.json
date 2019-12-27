@@ -1,8 +1,8 @@
 {
   "name": "sunriset",
-  "version": "0.0.1",
+  "version": "1.0.3",
   "description": "Calculate sunrise and sunset times",
-  "main": "index.js",
+  "main": "dist/sunriset.min.js",
   "scripts": {
     "build": "rollup -c"
   },

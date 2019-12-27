@@ -35,7 +35,7 @@ const zintstr = (num, width) => {
 };
 
 /**
- * suntime
+ * sunriset
  * Calculate sunset and sunrise times for given date and coordinates.
  *
  * @param {Date} d The date you want to find the sun data for.
@@ -52,7 +52,7 @@ const zintstr = (num, width) => {
  *    - `coordinates` (Array): An array of latitude and longitude values.
  *
  */
-module.exports = function suntime(d, lat, lon) {
+function sunriset(d, lat, lon) {
   const Rise_time = [0, 0];
   const Set_time = [0, 0];
 
@@ -276,4 +276,6 @@ module.exports = function suntime(d, lat, lon) {
   result.coordinates = [lat, lon];
 
   return result;
-};
+}
+
+export default sunriset;

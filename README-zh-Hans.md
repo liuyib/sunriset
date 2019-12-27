@@ -26,22 +26,10 @@ yarn add sunriset
 也支持 CDN 引用:
 
 ```html
-<script src="https://www.jsdelivr.com/package/npm/sunriset"></script>
+<script src="https://cdn.jsdelivr.net/npm/sunriset@latest/dist/sunriset.min.js"></script>
 ```
 
 ## :package: 使用
-
-支持 `UMD` 打包规范：
-
-```js
-import sunriset from 'sunriset';
-
-// OR
-
-const sunriset = require('sunriset');
-```
-
-使用举例:
 
 ```js
 import sunriset from 'sunriset';
